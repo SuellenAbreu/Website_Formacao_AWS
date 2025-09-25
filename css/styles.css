@@ -8266,6 +8266,9 @@ textarea.form-control-lg {
 
 .rounded-circle {
   border-radius: 50% !important;
+  width:500px;  /* Ajuste a largura da imagem */
+  height: 200px; /* Ajuste a altura da imagem */
+  object-fit: cover;
 }
 
 .rounded-pill {
@@ -10942,7 +10945,9 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
+  font-size: 30px; /* Ajuste o tamanho conforme necessário */
+  margin-right: 10px;
+
 }
 
 section.resume-section {
